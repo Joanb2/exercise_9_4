@@ -1,3 +1,7 @@
+var i = "rows";
+var k = "spaces";
+var j = "stars";
+
 function drawTree(height) {
 	for (i = 1 ; i <= height ; i++) {
 		var star ="";
@@ -11,4 +15,4 @@ function drawTree(height) {
 		console.log(star);
 	}
 }
-console.log(drawTree(6));
+drawTree(6);
